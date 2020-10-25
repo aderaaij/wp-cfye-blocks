@@ -1,0 +1,41 @@
+{
+  "name": "aderaaij/wp-cfye-blocks",
+  "version": "1.0.0",
+  "type": "wordpress-plugin",
+  "license": "GPLv3",
+  "description": "Custom Gutenberg Blocks for CFYE",
+  "homepage": "https://github.com/aderaaij/wp-cfye-blocks",
+  "authors": [
+    {
+      "name": "Arden de Raaij",
+      "email": "a.de.raaij@gmail.com",
+      "homepage": "https://github.com/aderaaij/"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "support": {
+    "issues": "https://github.com/aderaaij/wp-cfye-blocks"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "lint": [
+      "phpcs --ignore=index.php,vendor,resources,storage,dist --extensions=php --standard=PSR12 ."
+    ]
+  }
+}
