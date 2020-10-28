@@ -11,3 +11,4 @@
 
 import './block/block.js';
 import './core/image/index.js';
+import './core/gallery/index.js';

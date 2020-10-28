@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: CFYE Blocks
- * Plugin URI: https://github.com/ahmadawais/create-guten-block/
+ * Plugin URI: https://github.com/aderaaij/wp-cfye-blocks
  * Description: Custom Gutenberg Blocks for CFYE
  * Author: Arden de Raaij
  * Author URI: https://arden.nl
