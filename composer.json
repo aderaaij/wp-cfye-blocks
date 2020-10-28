@@ -1,7 +1,7 @@
 {
   "name": "aderaaij/wp-cfye-blocks",
   "version": "1.0.0",
-  "type": "wordpress-plugin",
+  "type": "wordpress-muplugin",
   "license": "GPLv3",
   "description": "Custom Gutenberg Blocks for CFYE",
   "homepage": "https://github.com/aderaaij/wp-cfye-blocks",
